@@ -82,6 +82,7 @@ export default function Home() {
 
       {/* About */}
       <section className="mt-4 space-y-2 text-gray-700 text-[15px] leading-relaxed">
+       
         <p>tldr; mostly self-taught by shipping things on the internet</p>
         <p>
           into tech and deep science — things that reshape us.
@@ -126,6 +127,10 @@ export default function Home() {
         </div>
       </section>
 
+      <h2 className='py-4'>
+          Checkout other works 
+      </h2>
+
       {/* GitHub Stats */}
       <section className="mt-12">
         <h2 className="text-sm font-bold mb-3 text-gray-800 uppercase tracking-wide">
@@ -144,7 +149,7 @@ export default function Home() {
         <h2 className="text-sm font-bold mb-3 text-gray-800 uppercase tracking-wide">
           skills
         </h2>
-        <div className="flex flex-wrap gap-4 text-3xl">
+        <div className="flex flex-wrap gap-4 text-4xl">
           {skillIcons.map(({ icon, color }, index) => (
             <span key={index} className={`${color}`}>{icon}</span>
           ))}
