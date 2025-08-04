@@ -9,7 +9,7 @@ const karla = Karla({
 })
 
 export const metadata = {
-  title: 'Indresh Esan',
+  title: 'Indresh',
 }
 
 export default function RootLayout({

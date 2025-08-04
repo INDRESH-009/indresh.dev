@@ -24,13 +24,13 @@ import GithubGraph from './components/GithubGraph'
 
 const projects = [
   {
-    title: 'Wokay',
+    title: 'CleanBites AI',
     description: 'All-in-one team chat and productivity app.',
     link: '#',
     icon: '🟡',
   },
   {
-    title: 'Zenorizon',
+    title: 'Continuous Non-Invasive Blood Pressure Monitoring estimation model ',
     description: 'Modern system for projects, roadmaps, and collaboration.',
     link: '#',
     icon: '⚙️',
@@ -164,9 +164,9 @@ export default function Home() {
         <div className="space-y-3">
           {[
             {
-              role: 'Software Engineer',
-              company: 'Warmwind',
-              icon: '🌬️',
+              role: 'AI Developer',
+              company: 'Beatly AI',
+              icon: '/beatly_ai_logo.jpg',
               date: 'Jan 2025 – Present',
             },
             {
@@ -193,7 +193,7 @@ export default function Home() {
               className="flex items-center justify-between border px-4 py-3 rounded-xl"
             >
               <div className="flex gap-3 items-center">
-                <span className="text-xl">{exp.icon}</span>
+                <img src={exp.icon} alt={`${exp.company} logo`} className="w-8 h-8 rounded-full object-cover" />
                 <div>
                   <p className="font-semibold">{exp.company}</p>
                   <p className="text-sm text-gray-600">{exp.role}</p>

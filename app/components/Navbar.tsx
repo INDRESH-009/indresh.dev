@@ -13,8 +13,7 @@ export default function Navbar() {
     <header className="w-full fixed top-0 z-50 backdrop-blur-md bg-white/80 shadow-sm border-b border-gray-200">
       <div className="max-w-4xl mx-auto flex justify-between items-center px-4 sm:px-6 py-4">
         <div className="text-xl font-bold tracking-tight text-gray-900">
-                  Indresh Esan
-                  <p className='font-extralight text-sm'>Founder and CEO - Trishul Robotics</p>
+                  Indresh
         </div>
 
         <nav className="flex flex-wrap gap-2 sm:gap-3 text-sm font-medium text-gray-600">
