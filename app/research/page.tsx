@@ -1,5 +1,5 @@
 // app/projects/page.tsx
-import ProjectCard from '../components/ProjectCard'
+import ProjectCard from "../components/ProjectCard"
 
 const projects = [
   {
@@ -27,7 +27,7 @@ const projects = [
 export default function Projects() {
   return (
     <main className="max-w-4xl mx-auto px-4 pt-20">
-      <h1 className="text-2xl font-semibold mt-12 mb-6">Project Portfolio</h1>
+      <h1 className="text-2xl font-semibold mt-12 mb-6">Research Portfolio</h1>
       <div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

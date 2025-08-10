@@ -34,31 +34,7 @@ const projects = [
     description: 'Modern system for projects, roadmaps, and collaboration.',
     link: '#',
     icon: '⚙️',
-  },
-  {
-    title: 'Warmwind',
-    description: 'AI-powered assistant to automate daily tasks.',
-    link: '#',
-    icon: '🌬️',
-  },
-  {
-    title: 'Sendit',
-    description: 'Frictionless digital commerce for creators.',
-    link: '#',
-    icon: '🚀',
-  },
-  {
-    title: 'Passcrypt',
-    description: 'Next-gen secure password manager.',
-    link: '#',
-    icon: '🔐',
-  },
-  {
-    title: 'Merilink',
-    description: 'Smart link for cross-platform content sharing.',
-    link: '#',
-    icon: '🔗',
-  },
+  }
 ]
 
 const skillIcons = [
@@ -164,29 +140,11 @@ export default function Home() {
         <div className="space-y-3">
           {[
             {
-              role: 'AI Developer',
+              role: 'AI Developer Intern',
               company: 'Beatly AI',
               icon: '/beatly_ai_logo.jpg',
-              date: 'Jan 2025 – Present',
-            },
-            {
-              role: 'Founding Engineer',
-              company: 'Sendit',
-              icon: '🚀',
-              date: 'Jun 2024 – Dec 2024',
-            },
-            {
-              role: 'Full Stack Developer',
-              company: 'Freelance',
-              icon: '💻',
-              date: 'Aug 2023 – May 2024',
-            },
-            {
-              role: 'Backend Developer',
-              company: 'Stealth Startup',
-              icon: '🕶️',
-              date: 'Dec 2021 – Jul 2022',
-            },
+              date: 'March 2025 – Present',
+            }
           ].map((exp) => (
             <div
               key={exp.company}

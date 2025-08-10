@@ -10,6 +10,9 @@ const karla = Karla({
 
 export const metadata = {
   title: 'Indresh',
+  icons: {
+    icon:'',
+  },
 }
 
 export default function RootLayout({
@@ -18,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={karla.variable}>
+    <html lang="en" className={karla.variable} suppressHydrationWarning>
       <body className="font-sans bg-white text-black min-h-screen">
         <Navbar />
         {children}
