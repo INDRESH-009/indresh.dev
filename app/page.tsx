@@ -1,5 +1,5 @@
 'use client'
-
+import Image from 'next/image'
 import ProjectCard from './components/ProjectCard'
 import {
   FaXTwitter,
@@ -151,7 +151,11 @@ export default function Home() {
               className="flex items-center justify-between border px-4 py-3 rounded-xl"
             >
               <div className="flex gap-3 items-center">
-                <img src={exp.icon} alt={`${exp.company} logo`} className="w-8 h-8 rounded-full object-cover" />
+                <Image
+                  src={exp.icon}
+                  alt={`${exp.company} logo`}
+                  className="w-8 h-8 rounded-full object-cover"
+                />
                 <div>
                   <p className="font-semibold">{exp.company}</p>
                   <p className="text-sm text-gray-600">{exp.role}</p>
